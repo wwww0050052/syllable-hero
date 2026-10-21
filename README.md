@@ -49,4 +49,4 @@ cd english-review-pwa && python3 -m http.server 8000
 
 https://wwww0050052.github.io/syllable-hero/
 
-推到 `main` 之後，GitHub Actions 會自動部署到 GitHub Pages。第一次要到 Settings → Pages，把 Source 設成「GitHub Actions」。
+GitHub Pages 設定：Settings → Pages → Source 選「Deploy from a branch」，分支選 `main`、資料夾選 `/ (root)`。之後推到 `main`，網站就會自動更新。
